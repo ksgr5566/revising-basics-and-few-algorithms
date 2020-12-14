@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define l end-start
 #define mid (start+end)/2
-
+//time complexity : O(nlogn)
 void recursive_sort(int[],int,int);
 void merge(int[],int,int);
 
