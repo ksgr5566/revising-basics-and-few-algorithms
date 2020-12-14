@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//time complexity : O(n^2)
 int main(void){
  int n;
  printf("Enter length of sequence=");
