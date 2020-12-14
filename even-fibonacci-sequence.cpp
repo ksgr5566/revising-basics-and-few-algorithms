@@ -4,6 +4,7 @@ using namespace std;
 
 /*Recurrence for Even Fibonacci sequence is:
   Nth even fib  = 4 ( (n-1) even fib )  + (n-2)nd even fib */
+//Prints all even ints in the sequence till xth int 
 
 int main(){
    ll x;
