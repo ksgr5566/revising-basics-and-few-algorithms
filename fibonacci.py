@@ -9,6 +9,7 @@ for x in range(len(l),n):
 print(l)
 
 #fibonacci naive recursion
+#Time Complexity : O(2^n)
 def fib(n):
     if(n==0 or n==1):
         return 1
