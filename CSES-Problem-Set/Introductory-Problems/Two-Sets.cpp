@@ -7,14 +7,14 @@ int main(){
   ll n;
   cin>>n;
   ll En2 = n*(n+1)/2;
-  //if sum of numbers is even
+  //if sum of numbers is not even we cant't divide into two required subsets
   if(En2%2!=0) cout<<"NO";
   else{
     cout<<"YES\n";
-   /*For this case, then the sum of each subset is half of the sum of the first N natural number.
+   /*The sum of each subset is half of the sum of the first N natural number.
      Iterate through the numbers from N to 1 if the number is less than or equal to the required sum then we include this number
      otherwise if the number is greater than the required sum then we ignore the number and include the number which is equal to the required sum.*/
-  //For even generalozation is done but its not required
+  //For even generalization is done but its not required
   /*  if(n%2==0){
       cout<<n/2<<'\n';
       ll st=1,ed=n;
