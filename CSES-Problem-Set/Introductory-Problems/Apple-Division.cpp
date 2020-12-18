@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
-//alternative method using bit wise operations ex: x&1<<i ;
+//current approach is using a to use backtracking (recursion)
+//alternative method using bit wise operations ex: x&1<<i ; (bit-masking)
 
 //get sum of subarray = x ; total sum=s ; sum of other subarray = s-x;
 // total diff = s-x -x = s-2x and minimum of s-2x is required
